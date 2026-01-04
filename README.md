@@ -24,3 +24,4 @@ Full stack web devloper
 # Saturday
 # Resume Ready ATS score - 87-88
 # 04/01/2026
+# Sunday

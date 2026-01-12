@@ -38,3 +38,4 @@ Full stack web devloper
 # 10/01/2026
 # Saturday
 # 12/01/2026
+# Monday

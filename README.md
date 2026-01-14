@@ -41,9 +41,66 @@ Full stack web devloper
 # Monday
 # 13/01/2026
 # Tuesday
-
-
-
-
 # 14/02/2026
 # Wednesday
+
+
+
+
+
+// frontend/src/nodes/BaseNode.js
+import React from 'react';
+import { Handle, Position } from 'reactflow';
+import { useNodeId } from 'reactflow';
+import styles from './BaseNode.module.css'; // Import the CSS module
+
+export default function BaseNode({
+data,
+type,
+label = type,
+icon = null,
+children,
+customBodyComponent: CustomBodyComponent = null,
+handleConfig = { inputs: [], outputs: [] },
+className = '',
+style = {}
+}) {
+const nodeId = useNodeId();
+
+const renderHandles = (positions, handleType) => {
+    if (!Array.isArray(positions)) return null;
+
+    return positions.map((pos, index) => {
+    const handleId = `${nodeId}-${handleType}-${index}`;
+    const positionEnum = pos === 'left' ? Position.Left :
+                        pos === 'right' ? Position.Right :
+                        pos === 'top' ? Position.Top : Position.Bottom;
+
+    return (
+        <Handle
+        key={handleId}
+        type={handleType}
+        position={positionEnum}
+        id={handleId}
+          className={styles['react-flow__handle']} // Apply handle styles
+        />
+    );
+    });
+};
+
+return (
+    <div className={`${styles.baseNode} ${className}`} style={style}> {/* Apply base node styles */}
+    <div className={styles.nodeHeader}>
+        {icon && <span className={styles.nodeIcon}>{icon}</span>}
+        <strong>{label}</strong>
+    </div>
+
+    <div className={styles.nodeBody}>
+        {CustomBodyComponent ? <CustomBodyComponent nodeId={nodeId} data={data} /> : children}
+    </div>
+
+    {renderHandles(handleConfig.inputs, 'target')}
+    {renderHandles(handleConfig.outputs, 'source')}
+    </div>
+);
+}

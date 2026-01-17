@@ -110,4 +110,5 @@ return (
 # 15/01/2026
 # Thursday
 # 16/01/2026
-# Saturday
+# friday
+# 17/01/2026

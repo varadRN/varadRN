@@ -17,5 +17,5 @@ I build scalable, real-time web applications with modern tech stacks. Focused on
 - **Data Structures:** consistently solving problems on LeetCode.
 
 ### 📫 Connect with me:
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=flat)](YOUR_LINKEDIN_URL_HERE)
-[![Email](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white&style=flat)](mailto:your_email@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=flat)](https://www.linkedin.com/in/varad-nakhate-088a7124a/)
+[![Email](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white&style=flat)](mailto:varadnakhate289@gmail.com)

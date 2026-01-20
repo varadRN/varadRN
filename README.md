@@ -13,7 +13,7 @@ I build scalable, real-time web applications with modern tech stacks. Focused on
 ---
 # 💫 About Me:
 
-🔭 I’m currently working on: CreativeBoard, a real-time collaborative whiteboard engine using **React, Fabric.js, and Supabase WebSockets** for sub-100ms sync.<br>-
+🔭 I’m currently working on: CreativeBoard, a real-time collaborative whiteboard engine using **React, Fabric.js, and Supabase WebSockets** for sub-100ms sync.<br>
 🌱Actively learning: Next.js 14 (Server Actions), Advanced **System Design** patterns, and **Docker** containerization for scalable deployments.
 
 ### 📫 Connect with me:

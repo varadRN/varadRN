@@ -12,8 +12,8 @@ I build scalable, real-time web applications with modern tech stacks. Focused on
 
 ---
 
-🔭 Currently working on:- 🔭 **I’m currently working on:** **CreativeBoard**, a real-time collaborative whiteboard engine using **React, Fabric.js, and Supabase WebSockets** for sub-100ms sync.<br>-🌱
-**Actively learning:** **Next.js 14** (Server Actions), Advanced **System Design** patterns, and **Docker** containerization for scalable deployments.<br>-
+🔭 Currently working🔭 **I’m currently working on:** **CreativeBoard**, a real-time collaborative whiteboard engine using **React, Fabric.js, and Supabase WebSockets** for sub-100ms sync.<br>-🌱
+Actively learning:** **Next.js 14** (Server Actions), Advanced **System Design** patterns, and **Docker** containerization for scalable deployments.<br>-
 
 ### 📫 Connect with me:
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=flat)](https://www.linkedin.com/in/varad-nakhate-088a7124a/)

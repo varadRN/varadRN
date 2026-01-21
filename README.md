@@ -1,4 +1,4 @@
-# Hi there, I'm Varad! 👋
+
 
 <div align="center">
   <h3>🚀 Full-Stack Web Developer</h3>

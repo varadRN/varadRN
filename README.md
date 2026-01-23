@@ -4,7 +4,7 @@
   <h3>🚀 Full-Stack Web Developer</h3>
 (React | Node.js | TypeScript)
 
-I build scalable, real-time web applications with modern tech stacks. Focused on clean code, performance, and user experience.
+I build scalable, real-time web applications with modern tech stacks. Focused on clean code, performance, and user experience
 </div>
 
 ---
